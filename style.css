@@ -1,0 +1,27 @@
+.pixel-font {
+            font-family: 'Press Start 2P', monospace;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #090d16;
+        }
+        .retro-box {
+            box-shadow: 4px 4px 0px 0px #1e293b;
+            border: 3px solid #334155;
+        }
+        .retro-btn {
+            box-shadow: 3px 3px 0px 0px #0f172a;
+            transition: all 0.1s ease;
+        }
+        .retro-btn:hover {
+            transform: translate(-1px, -1px);
+            box-shadow: 4px 4px 0px 0px #0f172a;
+        }
+        .retro-btn:active {
+            transform: translate(2px, 2px);
+            box-shadow: 1px 1px 0px 0px #0f172a;
+        }
+        canvas {
+            image-rendering: pixelated;
+            image-rendering: crisp-edges;
+        }
